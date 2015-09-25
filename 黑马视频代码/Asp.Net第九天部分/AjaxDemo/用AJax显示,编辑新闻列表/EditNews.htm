@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!--注意引入的顺序-->
+    <!--引入皮肤-->
+    <link href="../Js/jquery-easyui-1.4/themes/bootstrap/easyui.css" rel="stylesheet" />
+    <!--图标-->
+    <link href="../Js/jquery-easyui-1.4/themes/icon.css" rel="stylesheet" />
+    <!--先JS,后UI,最后语言包-->
+    <script src="../Js/jquery-1.7.1.js"></script>
+    <script src="../Js/jquery-easyui-1.4/jquery.easyui.min.js"></script>
+    <script src="../Js/jquery-easyui-1.4/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            LoadNewsToTable();
+            $("#savebtn").click(function () {
+                ChangeNews();
+            });
+        })
+
+        function LoadNewsToTable() {
+            //提取id值
+            var idRegex = /^.+\?id=(\d+)$/;
+            var id = (idRegex.exec(window.location.href))[1];
+            $.getJSON("GetANewsByIdInJSON.ashx", { "id": id }, function (data) {
+                var newsId = $("#newsId");
+                var title = $("#title");
+                var people = $("#people");
+                var content = $("#content");
+                newsId.html(data.ID);
+                title.attr("value", data.title);
+                people.attr("value", data.people);
+                content.attr("value", data.content);
+            })
+        }
+
+        function ChangeNews() {
+            //序列化表单数据成JSON
+            var newData = $("#newsForm").serializeArray();
+            $.ajax({
+                url: "ChangeNews.ashx",
+                type: "post",
+                dataType: "json",
+                data: newData,
+                success:function () {
+                    window.location.href = "ListNewsByAjax.htm";
+                },
+                errorFunction:function () {
+                    alert("保存失败");
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <form method="post" id="newsForm">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>编号:
+                </td>
+                <td>
+                    <lable id="newsId" name="ID">1</lable>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td>标题:
+                </td>
+                <td>
+                    <input type="text" id="title" name="title" />
+                </td>
+            </tr>
+            <tr>
+                <td>创建人:
+                </td>
+                <td>
+                    <input type="text" id="people" name="people"/>
+                </td>
+            </tr>
+            <tr>
+                <td>内容:
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="content" name="content"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <input type="button" value="Save" id="savebtn" /></tr>
+            <br />
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <!--注意引入的顺序-->
+    <!--引入皮肤-->
+    <link href="../Js/jquery-easyui-1.4/themes/bootstrap/easyui.css" rel="stylesheet" />
+    <!--图标-->
+    <link href="../Js/jquery-easyui-1.4/themes/icon.css" rel="stylesheet" />
+    <!--先JS,后UI,最后语言包-->
+    <script src="../Js/jquery-1.7.1.js"></script>
+    <script src="../Js/jquery-easyui-1.4/jquery.easyui.min.js"></script>
+    <script src="../Js/jquery-easyui-1.4/locale/easyui-lang-zh_CN.js"></script>
+
+    <!--这是处理时间格式的-->
+    <script src="../Js/datapattern.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            LoadNews();
+            //初始化时候要把对话框Div隐藏
+            $("#addDialog").css("display", "none");
+            AddNews();
+        })
+
+        function AddNews() {
+            /// <summary>添加按钮点击事件</summary>
+            $("#btnAdd").click(function () {
+                $("#addDialog").css("display", "block");
+                $("#addDialog").dialog({
+                    title: "新闻添加",
+                    width: 300,
+                    height: 400,
+                    modal: true,
+                    shadow: true,
+                    resizable: true,
+                    buttons: [{
+                        text: '保存',
+                        handler: PostNews,
+                        iconCls: "icon-save"
+                    }, {
+                        text: '关闭',
+                        handler: function () {
+                            $("#addDialog").dialog("close");
+                        },
+                        iconCls: "icon-cancel"
+                    }]
+                });
+            })
+
+        }
+        function PostNews() {
+            /// <summary>添加新闻</summary>
+            var newsData = $("#addDialog input").serializeArray();
+            //一般序列化的标签是Form,否则可能报错,这里用了过滤器选择可序列化的Input标签
+            $.post("AddNews.ashx", newsData, function (data) {
+                if (data == "ok") {
+                    alert("OK");
+                    //页面刷新,然而这不是最好的办法
+                    //window.location.reload();
+                    //用列表初始化方法
+                    LoadNews();
+                } else {
+                    alert("Error");
+                }
+            });
+        }
+        function LoadNews() {
+            /// <summary>加载新闻</summary>
+            $.getJSON("GetNewsInJSON.ashx", "", function (data) {
+                var tbody = $("#tbody");
+                tbody.html("");
+                var date;
+                for (var i in data) {
+                    //这里的Date是UTC时间,需要装换
+                    date = (eval(data[i].Date.replace(/\/Date\((\d+)\)\//gi, "new Date($1)"))).pattern("yyyy-MM-dd  hh:mm:ss");
+                    tbody.append("<tr><td>" + data[i].title + "</td><td>" + date + "&nbsp;&nbsp;</td><td>" + data[i].people + "</td><td><a href='EditNews.htm?id=" + data[i].ID + "'>编辑</a></td></tr>");
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="添加" id="btnAdd" />
+    <hr />
+    <div>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <thead>
+                <tr>
+                    <td>
+                        标题
+                    </td>
+                    <td>
+                        时间
+                    </td>
+                    <td>
+                        人
+                    </td>
+                    <td>
+                        操作
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <!--对话框-->
+    <div id="addDialog">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <h1>
+                添加新闻</h1>
+            <tr>
+                <td>
+                    标题
+                </td>
+                <td>
+                    <input type="text" id="txtTitle" name="txtTitle"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    创建人
+                </td>
+                <td>
+                    <input type="text" id="txtPeople" name="txtPeople"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    内容
+                </td>
+                <td>
+                    <input type="text" id="txtContent" name="txtContent" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

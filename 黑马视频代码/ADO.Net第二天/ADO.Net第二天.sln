@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatementCompleted事件", "StatementCompleted事件\StatementCompleted事件.csproj", "{178F78FE-6EA7-44B2-A172-52D975E45094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "登入", "登入\登入.csproj", "{6167CD7E-3587-4D25-8996-CD5E428C8EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据导入与导出", "数据导入与导出\数据导入与导出.csproj", "{F544D99D-8F09-4111-AD08-780562F3A879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用sqlhelper对newtable进行增删改查", "使用sqlhelper对newtable进行增删改查\使用sqlhelper对newtable进行增删改查.csproj", "{A75A1054-856C-4664-A107-F78210845708}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178F78FE-6EA7-44B2-A172-52D975E45094}.Debug|x86.ActiveCfg = Debug|x86
+		{178F78FE-6EA7-44B2-A172-52D975E45094}.Debug|x86.Build.0 = Debug|x86
+		{178F78FE-6EA7-44B2-A172-52D975E45094}.Release|x86.ActiveCfg = Release|x86
+		{178F78FE-6EA7-44B2-A172-52D975E45094}.Release|x86.Build.0 = Release|x86
+		{6167CD7E-3587-4D25-8996-CD5E428C8EEE}.Debug|x86.ActiveCfg = Debug|x86
+		{6167CD7E-3587-4D25-8996-CD5E428C8EEE}.Debug|x86.Build.0 = Debug|x86
+		{6167CD7E-3587-4D25-8996-CD5E428C8EEE}.Release|x86.ActiveCfg = Release|x86
+		{6167CD7E-3587-4D25-8996-CD5E428C8EEE}.Release|x86.Build.0 = Release|x86
+		{F544D99D-8F09-4111-AD08-780562F3A879}.Debug|x86.ActiveCfg = Debug|x86
+		{F544D99D-8F09-4111-AD08-780562F3A879}.Debug|x86.Build.0 = Debug|x86
+		{F544D99D-8F09-4111-AD08-780562F3A879}.Release|x86.ActiveCfg = Release|x86
+		{F544D99D-8F09-4111-AD08-780562F3A879}.Release|x86.Build.0 = Release|x86
+		{A75A1054-856C-4664-A107-F78210845708}.Debug|x86.ActiveCfg = Debug|x86
+		{A75A1054-856C-4664-A107-F78210845708}.Debug|x86.Build.0 = Debug|x86
+		{A75A1054-856C-4664-A107-F78210845708}.Release|x86.ActiveCfg = Release|x86
+		{A75A1054-856C-4664-A107-F78210845708}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

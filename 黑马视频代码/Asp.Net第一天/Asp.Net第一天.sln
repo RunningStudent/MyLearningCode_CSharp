@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托", "委托\委托.csproj", "{7A673EE8-7C2C-45B6-836C-8BE39109839E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "窗体传值", "窗体传值\窗体传值.csproj", "{D164B950-1EBE-4279-A3D9-E991C9CB408E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "发布订阅者模式的窗体传值", "发布订阅者模式的窗体传值\发布订阅者模式的窗体传值.csproj", "{F6CD9F63-D3D4-481A-B1D0-F9FA86C56D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "大管家模式的窗体传值", "大管家模式的窗体传值\大管家模式的窗体传值.csproj", "{C431F419-50A5-477D-994D-9D340CCFA493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件流复习", "文件流复习\文件流复习.csproj", "{F525D942-CF06-46A7-9DDF-9C13DABA9591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程_摇奖机", "线程_摇奖机\线程_摇奖机.csproj", "{15DB7293-96FA-4546-AA1A-9653FE11CDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "摇奖机2.0", "摇奖机2.0\摇奖机2.0.csproj", "{E5A53F35-FCCF-48C6-9A5B-D8ADD8B27007}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A673EE8-7C2C-45B6-836C-8BE39109839E}.Debug|x86.ActiveCfg = Debug|x86
+		{7A673EE8-7C2C-45B6-836C-8BE39109839E}.Debug|x86.Build.0 = Debug|x86
+		{7A673EE8-7C2C-45B6-836C-8BE39109839E}.Release|x86.ActiveCfg = Release|x86
+		{7A673EE8-7C2C-45B6-836C-8BE39109839E}.Release|x86.Build.0 = Release|x86
+		{D164B950-1EBE-4279-A3D9-E991C9CB408E}.Debug|x86.ActiveCfg = Debug|x86
+		{D164B950-1EBE-4279-A3D9-E991C9CB408E}.Debug|x86.Build.0 = Debug|x86
+		{D164B950-1EBE-4279-A3D9-E991C9CB408E}.Release|x86.ActiveCfg = Release|x86
+		{D164B950-1EBE-4279-A3D9-E991C9CB408E}.Release|x86.Build.0 = Release|x86
+		{F6CD9F63-D3D4-481A-B1D0-F9FA86C56D76}.Debug|x86.ActiveCfg = Debug|x86
+		{F6CD9F63-D3D4-481A-B1D0-F9FA86C56D76}.Debug|x86.Build.0 = Debug|x86
+		{F6CD9F63-D3D4-481A-B1D0-F9FA86C56D76}.Release|x86.ActiveCfg = Release|x86
+		{F6CD9F63-D3D4-481A-B1D0-F9FA86C56D76}.Release|x86.Build.0 = Release|x86
+		{C431F419-50A5-477D-994D-9D340CCFA493}.Debug|x86.ActiveCfg = Debug|x86
+		{C431F419-50A5-477D-994D-9D340CCFA493}.Debug|x86.Build.0 = Debug|x86
+		{C431F419-50A5-477D-994D-9D340CCFA493}.Release|x86.ActiveCfg = Release|x86
+		{C431F419-50A5-477D-994D-9D340CCFA493}.Release|x86.Build.0 = Release|x86
+		{F525D942-CF06-46A7-9DDF-9C13DABA9591}.Debug|x86.ActiveCfg = Debug|x86
+		{F525D942-CF06-46A7-9DDF-9C13DABA9591}.Debug|x86.Build.0 = Debug|x86
+		{F525D942-CF06-46A7-9DDF-9C13DABA9591}.Release|x86.ActiveCfg = Release|x86
+		{F525D942-CF06-46A7-9DDF-9C13DABA9591}.Release|x86.Build.0 = Release|x86
+		{15DB7293-96FA-4546-AA1A-9653FE11CDB2}.Debug|x86.ActiveCfg = Debug|x86
+		{15DB7293-96FA-4546-AA1A-9653FE11CDB2}.Debug|x86.Build.0 = Debug|x86
+		{15DB7293-96FA-4546-AA1A-9653FE11CDB2}.Release|x86.ActiveCfg = Release|x86
+		{15DB7293-96FA-4546-AA1A-9653FE11CDB2}.Release|x86.Build.0 = Release|x86
+		{E5A53F35-FCCF-48C6-9A5B-D8ADD8B27007}.Debug|x86.ActiveCfg = Debug|x86
+		{E5A53F35-FCCF-48C6-9A5B-D8ADD8B27007}.Debug|x86.Build.0 = Debug|x86
+		{E5A53F35-FCCF-48C6-9A5B-D8ADD8B27007}.Release|x86.ActiveCfg = Release|x86
+		{E5A53F35-FCCF-48C6-9A5B-D8ADD8B27007}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

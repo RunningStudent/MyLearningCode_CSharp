@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "窗体复习之简易计算器", "窗体复习之简易计算器\窗体复习之简易计算器.csproj", "{4E1523B8-F678-4DC3-A628-B2EBD1EA5712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1523B8-F678-4DC3-A628-B2EBD1EA5712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1523B8-F678-4DC3-A628-B2EBD1EA5712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1523B8-F678-4DC3-A628-B2EBD1EA5712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1523B8-F678-4DC3-A628-B2EBD1EA5712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

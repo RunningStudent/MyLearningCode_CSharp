@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h4>只修改部分</h4>
+    <!-- select Id, QunNum, MastQQ, CreateDate, Title, Class, QunText from QunList81 where Id=@id -->
+    <form action="EditHandler.ashx" method="post">
+    <table border="0" cellpadding="0" cellspacing="0">
+        <input type="hidden" name="Action" value="Edit" />
+        <tr>
+            <td>
+                Id
+            </td>
+            <td>
+                <input type="text" name="Idtext" value="@Id" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                群号
+            </td>
+            <td>
+                <input type="text" name="QunNumtext" value="@QunNum" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                群主QQ
+            </td>
+            <td>
+                <input type="text" name="MastQQtext" value="@MastQQ" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan=2>
+                <input type="submit" name"sub" value="提交"/>
+            </td>
+        </tr>        
+    </table>
+    </form>
+</body>
+</html>

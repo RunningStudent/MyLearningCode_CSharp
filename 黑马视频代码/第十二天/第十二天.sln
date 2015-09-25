@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型基础", "泛型基础\泛型基础.csproj", "{94F0FF0A-FA7F-4C9F-B6F5-5BDF23A1C6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "编写三连击触发事件按钮", "编写三连击触发事件按钮\编写三连击触发事件按钮.csproj", "{C64A37C2-C3B8-41EF-BBE4-777ECA65D405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "登入界面封装成控件", "登入界面封装成控件\登入界面封装成控件.csproj", "{1F10828D-9292-45DA-A601-D6DC15A3C009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F0FF0A-FA7F-4C9F-B6F5-5BDF23A1C6E1}.Debug|x86.ActiveCfg = Debug|x86
+		{94F0FF0A-FA7F-4C9F-B6F5-5BDF23A1C6E1}.Debug|x86.Build.0 = Debug|x86
+		{94F0FF0A-FA7F-4C9F-B6F5-5BDF23A1C6E1}.Release|x86.ActiveCfg = Release|x86
+		{94F0FF0A-FA7F-4C9F-B6F5-5BDF23A1C6E1}.Release|x86.Build.0 = Release|x86
+		{C64A37C2-C3B8-41EF-BBE4-777ECA65D405}.Debug|x86.ActiveCfg = Debug|x86
+		{C64A37C2-C3B8-41EF-BBE4-777ECA65D405}.Debug|x86.Build.0 = Debug|x86
+		{C64A37C2-C3B8-41EF-BBE4-777ECA65D405}.Release|x86.ActiveCfg = Release|x86
+		{C64A37C2-C3B8-41EF-BBE4-777ECA65D405}.Release|x86.Build.0 = Release|x86
+		{1F10828D-9292-45DA-A601-D6DC15A3C009}.Debug|x86.ActiveCfg = Debug|x86
+		{1F10828D-9292-45DA-A601-D6DC15A3C009}.Debug|x86.Build.0 = Debug|x86
+		{1F10828D-9292-45DA-A601-D6DC15A3C009}.Release|x86.ActiveCfg = Release|x86
+		{1F10828D-9292-45DA-A601-D6DC15A3C009}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

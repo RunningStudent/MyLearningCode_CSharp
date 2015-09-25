@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML", "XML\XML.csproj", "{CD5A9CE1-C9A2-41B3-8EDD-0F117C527A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xml追加", "xml追加\xml追加.csproj", "{08A4E931-5B41-4FF4-85A1-0D7D1BEC17EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "读取属性", "读取属性\读取属性.csproj", "{4819BD94-351C-4F43-A33B-D1642DBDC809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "删除节点", "删除节点\删除节点.csproj", "{8501E11D-2BD4-4250-BAE9-0ACEEABCB33A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD5A9CE1-C9A2-41B3-8EDD-0F117C527A9F}.Debug|x86.ActiveCfg = Debug|x86
+		{CD5A9CE1-C9A2-41B3-8EDD-0F117C527A9F}.Debug|x86.Build.0 = Debug|x86
+		{CD5A9CE1-C9A2-41B3-8EDD-0F117C527A9F}.Release|x86.ActiveCfg = Release|x86
+		{CD5A9CE1-C9A2-41B3-8EDD-0F117C527A9F}.Release|x86.Build.0 = Release|x86
+		{08A4E931-5B41-4FF4-85A1-0D7D1BEC17EA}.Debug|x86.ActiveCfg = Debug|x86
+		{08A4E931-5B41-4FF4-85A1-0D7D1BEC17EA}.Debug|x86.Build.0 = Debug|x86
+		{08A4E931-5B41-4FF4-85A1-0D7D1BEC17EA}.Release|x86.ActiveCfg = Release|x86
+		{08A4E931-5B41-4FF4-85A1-0D7D1BEC17EA}.Release|x86.Build.0 = Release|x86
+		{4819BD94-351C-4F43-A33B-D1642DBDC809}.Debug|x86.ActiveCfg = Debug|x86
+		{4819BD94-351C-4F43-A33B-D1642DBDC809}.Debug|x86.Build.0 = Debug|x86
+		{4819BD94-351C-4F43-A33B-D1642DBDC809}.Release|x86.ActiveCfg = Release|x86
+		{4819BD94-351C-4F43-A33B-D1642DBDC809}.Release|x86.Build.0 = Release|x86
+		{8501E11D-2BD4-4250-BAE9-0ACEEABCB33A}.Debug|x86.ActiveCfg = Debug|x86
+		{8501E11D-2BD4-4250-BAE9-0ACEEABCB33A}.Debug|x86.Build.0 = Debug|x86
+		{8501E11D-2BD4-4250-BAE9-0ACEEABCB33A}.Release|x86.ActiveCfg = Release|x86
+		{8501E11D-2BD4-4250-BAE9-0ACEEABCB33A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

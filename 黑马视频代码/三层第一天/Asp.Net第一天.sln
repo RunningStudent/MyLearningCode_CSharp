@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoReview", "AdoReview\AdoReview.csproj", "{946BB56A-2128-4E27-9DEC-40D6FADB9394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD5使用", "MD5使用\MD5使用.csproj", "{C1E018FB-6B78-4104-A207-3BCF17FF8ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用MD5的窗体登入", "使用MD5的窗体登入\使用MD5的窗体登入.csproj", "{9BE61B95-1D19-4879-B796-2883FAA933B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "用NPOI操作Excel", "用NPOI操作Excel\用NPOI操作Excel.csproj", "{1EB583BD-7170-4B9C-897F-348F20F1BB21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{946BB56A-2128-4E27-9DEC-40D6FADB9394}.Debug|x86.ActiveCfg = Debug|x86
+		{946BB56A-2128-4E27-9DEC-40D6FADB9394}.Debug|x86.Build.0 = Debug|x86
+		{946BB56A-2128-4E27-9DEC-40D6FADB9394}.Release|x86.ActiveCfg = Release|x86
+		{946BB56A-2128-4E27-9DEC-40D6FADB9394}.Release|x86.Build.0 = Release|x86
+		{C1E018FB-6B78-4104-A207-3BCF17FF8ED3}.Debug|x86.ActiveCfg = Debug|x86
+		{C1E018FB-6B78-4104-A207-3BCF17FF8ED3}.Debug|x86.Build.0 = Debug|x86
+		{C1E018FB-6B78-4104-A207-3BCF17FF8ED3}.Release|x86.ActiveCfg = Release|x86
+		{C1E018FB-6B78-4104-A207-3BCF17FF8ED3}.Release|x86.Build.0 = Release|x86
+		{9BE61B95-1D19-4879-B796-2883FAA933B4}.Debug|x86.ActiveCfg = Debug|x86
+		{9BE61B95-1D19-4879-B796-2883FAA933B4}.Debug|x86.Build.0 = Debug|x86
+		{9BE61B95-1D19-4879-B796-2883FAA933B4}.Release|x86.ActiveCfg = Release|x86
+		{9BE61B95-1D19-4879-B796-2883FAA933B4}.Release|x86.Build.0 = Release|x86
+		{1EB583BD-7170-4B9C-897F-348F20F1BB21}.Debug|x86.ActiveCfg = Debug|x86
+		{1EB583BD-7170-4B9C-897F-348F20F1BB21}.Debug|x86.Build.0 = Debug|x86
+		{1EB583BD-7170-4B9C-897F-348F20F1BB21}.Release|x86.ActiveCfg = Release|x86
+		{1EB583BD-7170-4B9C-897F-348F20F1BB21}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

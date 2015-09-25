@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlConnectionStringBuilder", "SqlConnectionStringBuilder\SqlConnectionStringBuilder.csproj", "{1D0B0E57-A8F5-4949-9C7A-55662FD7368A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用属性面板生成连接字符串", "使用属性面板生成连接字符串\使用属性面板生成连接字符串.csproj", "{D8A41C4D-5148-4AEF-AB8A-5F7BB0347A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据库的增删改", "数据库的增删改\数据库的增删改.csproj", "{8E70769C-CED2-46E8-AE5C-24AC91513D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "与数据库绑定", "与数据库绑定\与数据库绑定.csproj", "{1D78261E-52C2-46EE-A84E-92626214BD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "用控件进行对数据库的增删改查", "用控件进行对数据库的增删改查\用控件进行对数据库的增删改查.csproj", "{029A60B3-D0B9-439E-B75A-A7D5D86D1653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D0B0E57-A8F5-4949-9C7A-55662FD7368A}.Debug|x86.ActiveCfg = Debug|x86
+		{1D0B0E57-A8F5-4949-9C7A-55662FD7368A}.Debug|x86.Build.0 = Debug|x86
+		{1D0B0E57-A8F5-4949-9C7A-55662FD7368A}.Release|x86.ActiveCfg = Release|x86
+		{1D0B0E57-A8F5-4949-9C7A-55662FD7368A}.Release|x86.Build.0 = Release|x86
+		{D8A41C4D-5148-4AEF-AB8A-5F7BB0347A84}.Debug|x86.ActiveCfg = Debug|x86
+		{D8A41C4D-5148-4AEF-AB8A-5F7BB0347A84}.Debug|x86.Build.0 = Debug|x86
+		{D8A41C4D-5148-4AEF-AB8A-5F7BB0347A84}.Release|x86.ActiveCfg = Release|x86
+		{D8A41C4D-5148-4AEF-AB8A-5F7BB0347A84}.Release|x86.Build.0 = Release|x86
+		{8E70769C-CED2-46E8-AE5C-24AC91513D96}.Debug|x86.ActiveCfg = Debug|x86
+		{8E70769C-CED2-46E8-AE5C-24AC91513D96}.Debug|x86.Build.0 = Debug|x86
+		{8E70769C-CED2-46E8-AE5C-24AC91513D96}.Release|x86.ActiveCfg = Release|x86
+		{8E70769C-CED2-46E8-AE5C-24AC91513D96}.Release|x86.Build.0 = Release|x86
+		{1D78261E-52C2-46EE-A84E-92626214BD42}.Debug|x86.ActiveCfg = Debug|x86
+		{1D78261E-52C2-46EE-A84E-92626214BD42}.Debug|x86.Build.0 = Debug|x86
+		{1D78261E-52C2-46EE-A84E-92626214BD42}.Release|x86.ActiveCfg = Release|x86
+		{1D78261E-52C2-46EE-A84E-92626214BD42}.Release|x86.Build.0 = Release|x86
+		{029A60B3-D0B9-439E-B75A-A7D5D86D1653}.Debug|x86.ActiveCfg = Debug|x86
+		{029A60B3-D0B9-439E-B75A-A7D5D86D1653}.Debug|x86.Build.0 = Debug|x86
+		{029A60B3-D0B9-439E-B75A-A7D5D86D1653}.Release|x86.ActiveCfg = Release|x86
+		{029A60B3-D0B9-439E-B75A-A7D5D86D1653}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml练习(XDocument)", "Xml练习(XDocument)\Xml练习(XDocument).csproj", "{81649883-0055-4078-8B58-9C33807B5BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "集合内容写入xml", "集合内容写入xml\集合内容写入xml.csproj", "{B21A8990-2710-46C9-8E89-7B17BE7C5A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "读取练习", "读取练习\读取练习.csproj", "{D58B4B72-C5B9-45C4-B08E-D2FB5FA61EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "把xml加入TreeView", "把xml加入TreeView\把xml加入TreeView.csproj", "{7EE1DAC2-07AB-46F0-8A67-20FE76713293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "对Xml进行增删改查", "对Xml进行增删改查\对Xml进行增删改查.csproj", "{29934738-20C0-44E2-B8C7-676FDC315710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "学习日志记事本", "学习日志记事本\学习日志记事本.csproj", "{1AC61EF9-08AD-4558-AD1E-F8D51FCF2BE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81649883-0055-4078-8B58-9C33807B5BAF}.Debug|x86.ActiveCfg = Debug|x86
+		{81649883-0055-4078-8B58-9C33807B5BAF}.Debug|x86.Build.0 = Debug|x86
+		{81649883-0055-4078-8B58-9C33807B5BAF}.Release|x86.ActiveCfg = Release|x86
+		{81649883-0055-4078-8B58-9C33807B5BAF}.Release|x86.Build.0 = Release|x86
+		{B21A8990-2710-46C9-8E89-7B17BE7C5A20}.Debug|x86.ActiveCfg = Debug|x86
+		{B21A8990-2710-46C9-8E89-7B17BE7C5A20}.Debug|x86.Build.0 = Debug|x86
+		{B21A8990-2710-46C9-8E89-7B17BE7C5A20}.Release|x86.ActiveCfg = Release|x86
+		{B21A8990-2710-46C9-8E89-7B17BE7C5A20}.Release|x86.Build.0 = Release|x86
+		{D58B4B72-C5B9-45C4-B08E-D2FB5FA61EAB}.Debug|x86.ActiveCfg = Debug|x86
+		{D58B4B72-C5B9-45C4-B08E-D2FB5FA61EAB}.Debug|x86.Build.0 = Debug|x86
+		{D58B4B72-C5B9-45C4-B08E-D2FB5FA61EAB}.Release|x86.ActiveCfg = Release|x86
+		{D58B4B72-C5B9-45C4-B08E-D2FB5FA61EAB}.Release|x86.Build.0 = Release|x86
+		{7EE1DAC2-07AB-46F0-8A67-20FE76713293}.Debug|x86.ActiveCfg = Debug|x86
+		{7EE1DAC2-07AB-46F0-8A67-20FE76713293}.Debug|x86.Build.0 = Debug|x86
+		{7EE1DAC2-07AB-46F0-8A67-20FE76713293}.Release|x86.ActiveCfg = Release|x86
+		{7EE1DAC2-07AB-46F0-8A67-20FE76713293}.Release|x86.Build.0 = Release|x86
+		{29934738-20C0-44E2-B8C7-676FDC315710}.Debug|x86.ActiveCfg = Debug|x86
+		{29934738-20C0-44E2-B8C7-676FDC315710}.Debug|x86.Build.0 = Debug|x86
+		{29934738-20C0-44E2-B8C7-676FDC315710}.Release|x86.ActiveCfg = Release|x86
+		{29934738-20C0-44E2-B8C7-676FDC315710}.Release|x86.Build.0 = Release|x86
+		{1AC61EF9-08AD-4558-AD1E-F8D51FCF2BE3}.Debug|x86.ActiveCfg = Debug|x86
+		{1AC61EF9-08AD-4558-AD1E-F8D51FCF2BE3}.Debug|x86.Build.0 = Debug|x86
+		{1AC61EF9-08AD-4558-AD1E-F8D51FCF2BE3}.Release|x86.ActiveCfg = Release|x86
+		{1AC61EF9-08AD-4558-AD1E-F8D51FCF2BE3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

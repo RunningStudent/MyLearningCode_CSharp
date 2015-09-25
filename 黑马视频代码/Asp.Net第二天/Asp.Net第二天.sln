@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "模拟生产者消费者问题", "模拟生产者消费者问题\模拟生产者消费者问题.csproj", "{C5F17623-7815-46CC-8F52-44CC64B4DBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程池", "线程池\线程池.csproj", "{F07D5FB2-F62F-4AB0-8944-091BDACB9A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步编程", "异步编程\异步编程.csproj", "{22D77EAF-85BC-4A29-9567-2508F6E36ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "摇奖机线程池版", "摇奖机线程池版\摇奖机线程池版.csproj", "{DE4BA880-C8C6-48B9-81C2-72DD533B8424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F17623-7815-46CC-8F52-44CC64B4DBD4}.Debug|x86.ActiveCfg = Debug|x86
+		{C5F17623-7815-46CC-8F52-44CC64B4DBD4}.Debug|x86.Build.0 = Debug|x86
+		{C5F17623-7815-46CC-8F52-44CC64B4DBD4}.Release|x86.ActiveCfg = Release|x86
+		{C5F17623-7815-46CC-8F52-44CC64B4DBD4}.Release|x86.Build.0 = Release|x86
+		{F07D5FB2-F62F-4AB0-8944-091BDACB9A0F}.Debug|x86.ActiveCfg = Debug|x86
+		{F07D5FB2-F62F-4AB0-8944-091BDACB9A0F}.Debug|x86.Build.0 = Debug|x86
+		{F07D5FB2-F62F-4AB0-8944-091BDACB9A0F}.Release|x86.ActiveCfg = Release|x86
+		{F07D5FB2-F62F-4AB0-8944-091BDACB9A0F}.Release|x86.Build.0 = Release|x86
+		{22D77EAF-85BC-4A29-9567-2508F6E36ADA}.Debug|x86.ActiveCfg = Debug|x86
+		{22D77EAF-85BC-4A29-9567-2508F6E36ADA}.Debug|x86.Build.0 = Debug|x86
+		{22D77EAF-85BC-4A29-9567-2508F6E36ADA}.Release|x86.ActiveCfg = Release|x86
+		{22D77EAF-85BC-4A29-9567-2508F6E36ADA}.Release|x86.Build.0 = Release|x86
+		{DE4BA880-C8C6-48B9-81C2-72DD533B8424}.Debug|x86.ActiveCfg = Debug|x86
+		{DE4BA880-C8C6-48B9-81C2-72DD533B8424}.Debug|x86.Build.0 = Debug|x86
+		{DE4BA880-C8C6-48B9-81C2-72DD533B8424}.Release|x86.ActiveCfg = Release|x86
+		{DE4BA880-C8C6-48B9-81C2-72DD533B8424}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

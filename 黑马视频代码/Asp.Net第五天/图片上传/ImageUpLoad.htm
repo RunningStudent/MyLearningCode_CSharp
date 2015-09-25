@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Script/jquery-1.7.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //在浏览器端对文件的类型进行过滤
+        $(function () {
+            $(":file").change(function () {
+                var filtName = $(this).val().toString();
+                var ext = filtName.substr(filtName.lastIndexOf('.') + 1);
+
+                //这里简要的过滤,只要图片类型
+                if (ext === "jpeg" || ext === "jpg" || ext === "bmp" || ext === "png") {
+                    return true;
+                } else {
+                    $(this).val("");
+                    alert(ext);
+                }
+
+            })
+        })
+        
+    </script>
+    <title></title>
+</head>
+<body>
+    <!-- 一定要把method属性设置为post 一定要设置传输数据的形式 -->
+    <form action="UpLoadImgHandler.ashx" enctype="multipart/form-data" method="post">
+        <input type="file" name="imgFile" />
+        <input type="submit" value="上传"/>
+    
+    </form>
+</body>
+</html>
